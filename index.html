@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive JS Event Playground</h1>
+
+  <!-- Button Interaction -->
+  <button id="magicBtn">Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" class="gallery-img" alt="Image 1" />
+    <img src="https://via.placeholder.com/150" class="gallery-img" alt="Image 2" />
+    <img src="https://via.placeholder.com/150" class="gallery-img" alt="Image 3" />
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab" data-target="content1">Tab 1</button>
+    <button class="tab" data-target="content2">Tab 2</button>
+    <button class="tab" data-target="content3">Tab 3</button>
+  </div>
+  <div class="tab-content" id="content1">Content 1 here...</div>
+  <div class="tab-content" id="content2" style="display:none">Content 2 here...</div>
+  <div class="tab-content" id="content3" style="display:none">Content 3 here...</div>
+
+  <!-- Form Validation -->
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="feedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
